@@ -1,11 +1,19 @@
 body{
 	
-	
+	background-image: url(background.png);
 	font-size:15px;
 	margin: 0px;
 	padding:0px;
 }
 
+header{
+	
+	background-color: white;
+	display: table;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
 
 
 
@@ -62,7 +70,6 @@ nav a{
 }
 
 .requete:hover{
-	
 
 	border-top: 5px solid #E5FF00;
 	background-color: rgba(230,250,0,0.15); 	
@@ -71,6 +78,7 @@ nav a{
 nav li:hover a{
 	padding:15px 30px 20px 30px;
 }
+
 
 
 #c1{
@@ -85,11 +93,30 @@ nav li:hover a{
 	padding-left: 20px;
 }
 
+.requete{
+	float: left; /* Pour que les liens s’affichent horizontalement */
+    position: relative; /* Crée un contexte de positionnement pour les sous-listes */
+}
 
-ul ul{
-	display: none;
+.requete ul{
+
+	display: none; /* Masque la sous-liste */
+    position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
+    white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+    background: #084A54; /* FIX IE7 : évite que la sous-liste ne disparaisse au moment où le curseur arrive au-dessus */
+   
 }
-.requete:hover li li{
-	background-color: blue;
-	display: block;
+
+.requete ul li:hover{
+	
+	background-color: rgba(230,230,0,0.8); 
 }
+
+
+
+.requete:hover ul {
+ display:block;
+ }
+
+
+

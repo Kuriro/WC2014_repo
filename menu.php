@@ -1,3 +1,7 @@
+<header>
+			<p>Header</p>
+		</header>
+
 <nav>
 			<div class="table">
 				<ul>
@@ -8,14 +12,18 @@
 					<li class="match"><a href="match.php">matchs</a></li>
 					<li class="requete"><a href="requetes.php">Requêtes</a>
                  		 <ul>
-                     <li><a href="#">lien sous menu 1</a></li>
-                     <li><a href="#">lien sous menu 1</a></li>
-                     <li><a href="#">lien sous menu 1</a></li>
-                     <li><a href="#">lien sous menu 1</a></li>
-                  </ul>    
+                    		 <li><a href="#">lien sous menu 1</a></li>
+                    		 <li><a href="#">lien sous menu 2</a></li>
+                    		 <li><a href="#">lien sous menu 3</a></li>
+                    		 <li><a href="#">lien sous menu 4</a></li>
+                  		</ul>    
 
               		 </li>
 					
 				</ul>
 			</div>
-		</nav>
+</nav>
+<footer>
+ <!--à compléter + créer un fichier-->
+
+</footer>

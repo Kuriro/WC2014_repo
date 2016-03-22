@@ -9,9 +9,7 @@
 	</head>
 
 	<body>
-		<header>
 		
-		</header>
 
 		<?php include"menu.php" ?>
 
@@ -20,9 +18,7 @@
 			<p>Voici des données concernant la coupe du monde 2014</p>
 		</section>
 
-		<footer>
-
-		</footer>
+		
 	</body>
 
 </html>
