@@ -1,0 +1,5 @@
+<!ELEMENT Competition (Nation)>
+<!ELEMENT Nation (Joueur,Match)>
+<!ELEMENT Joueur (#PCDATA)>
+<!ELEMENT Match (#PCDATA)>
+<!ELEMENT Club (#PCDATA)>
